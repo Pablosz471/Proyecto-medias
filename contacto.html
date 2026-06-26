@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Contacto - LUAR</title>
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <aside class="sidebar">
+            <img src="./Imag/logo2.png" alt="Logo de LUAR" class="logo">
+            <h1 class="titulo-logo">LUAR</h1>
+            <p class="eslogan">Luz de Luna</p>
+            <nav class="navbar">
+                <a href="index.html">Inicio</a> 
+                <a href="productos.html">Productos</a> 
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </aside>
+
+        <main class="principal">
+            <section class="contacto-titulo">
+                <h2>Finalizar compra</h2>
+
+                <p>
+                    Completá tus datos para realizar tu pedido.
+                </p>
+            </section>
+
+            <section class="contacto-layout">
+                <section class="formulario">
+                    <form id ="formulario" novalidate>
+                        <label for="nombre">
+                            Nombre
+                        </label>
+                        <input type="text" id="nombre">
+                        <small id="errorNombre"></small>
+
+                        <label for="email">
+                            Email
+                        </label>
+                        <input type="email" id="email">
+                        <small id="errorEmail"></small>
+                        <label for="telefono">
+                            Teléfono
+                        </label>
+                        <input type="text" id="telefono">
+                        <small id="errorTelefono"></small>
+
+                        <label for="direccion">
+                            Dirección
+                        </label>
+                        <input type="text" id="direccion">
+                        <small id="errorDireccion"></small>
+
+                        <label for="mensaje">
+                            Mensaje
+                        </label>
+                        <textarea id="mensaje"></textarea>
+                        <small id="errorMensaje"></small>
+
+                        <button type="submit">
+                            Comprar
+                        </button>
+                        <div id="mensajeExito" class="alert alert-success mt-3 d-none" role="alert">
+                            ¡Compra realizada con éxito!
+                        </div>
+                    </form>
+                </section>
+
+                <aside class="carrito">
+                    <h3>Tu carrito</h3>
+                    <div class="producto-carrito">
+                        <p>Medias Adidas</p>
+                        <span>$2000</span>
+                    </div>
+
+                    <div class="producto-carrito">
+                        <p>Media Nike</p>
+                        <span>$2500</span>
+                    </div>
+
+                    <div class="total">
+                        <p>Total</p>
+                        <span>$4500</span>
+                    </div>
+                </aside>
+            </section>
+
+            <section class="ubicacion">
+                <h2>Ubicación</h2>
+
+                <iframe
+                src="https://maps.google.com/maps?hl=es&q=Arturo%20Oñativia%20577%20Salta&output=embed">
+                </iframe>
+            </section>
+
+            <footer class="footer">
+                <p>
+                    LUAR - Luz de Luna
+                </p>
+            </footer>
+        </main>
+    </div>
+
+ <script src="./js/validaciones.js"></script>   
+</body>
+</html>
