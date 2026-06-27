@@ -112,4 +112,4 @@ formulario.addEventListener("submit", function(evento) {
     setTimeout(function() {
         mensajeExito.classList.add("d-none");
     }, 3000);
-})
+});

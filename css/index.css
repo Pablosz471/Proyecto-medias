@@ -1,27 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #f5f0ff;
     color: #2d1b4e;
 }
 
-.contenedor{
+.contenedor {
     display: grid;
     grid-template-columns: 250px 1fr;
     min-height: 100vh;
 }
 
-.sidebar{
+.sidebar {
     background-color: #c8b6ff;
     padding: 30px;
 }
 
-.logo{
+.logo {
     width: 170px;
     height: 170px;
 
@@ -37,23 +37,24 @@ body{
 
 h1,
 h2,
-h3{
+h3 {
     color: black;
 }
-.titulo-logo{
+
+.titulo-logo {
     text-align: center;
     margin-top: 20px;
     font-size: 42px;
 }
 
-.eslogan{
+.eslogan {
     text-align: center;
     margin-top: 8px;
     font-size: 18px;
     color: #4b3b72;
 }
 
-.navbar{
+.navbar {
     margin-top: 50px;
 
     display: flex;
@@ -61,7 +62,7 @@ h3{
     gap: 25px;
 }
 
-.navbar a{
+.navbar a {
     text-decoration: none;
     color: #4b3b72;
     font-size: 20px;
@@ -70,12 +71,12 @@ h3{
     transition: 0.3s;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     color: white;
     transform: translateX(8px);
 }
 
-.principal{
+.principal {
     padding: 40px;
 }
 
@@ -89,22 +90,22 @@ h3{
     padding: 60px;
 }
 
-.hero-texto{
+.hero-texto {
     width: 50%;
 }
 
-.hero h2{
+.hero h2 {
     font-size: 60px;
     color: black;
 }
 
-.hero p{
+.hero p {
     margin-top: 20px;
     font-size: 22px;
     line-height: 1.6;
 }
 
-.btn{
+.btn {
     display: inline-block;
     margin-top: 30px;
     background-color: #9b6dff;
@@ -115,20 +116,20 @@ h3{
     transition: 0.3s;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #7f4ef0;
 }
 
-.hero-imagen{
+.hero-imagen {
     width: 50%;
 }
 
-.hero-imagen img{
+.hero-imagen img {
     width: 100%;
     border-radius: 30px;
 }
 
-.sobre-luar{
+.sobre-luar {
     margin-top: 40px;
 
     background-color: white;
@@ -136,29 +137,30 @@ h3{
     padding: 40px;
 }
 
-.sobre-luar h2{
+.sobre-luar h2 {
     margin-bottom: 20px;
 }
 
-.sobre-luar p{
+.sobre-luar p {
     margin-top: 15px;
     line-height: 1.8;
     font-size: 18px;
 }
 
-.destacados{
+.destacados {
     margin-top: 40px;
 }
 
-.destacados h2{
+.destacados h2 {
     margin-bottom: 30px;
 }
-.cards{
+
+.cards {
     display: flex;
     gap: 25px;
 }
 
-.card{
+.card {
     background-color: white;
     padding: 20px;
     border-radius: 25px;
@@ -167,76 +169,77 @@ h3{
     transition: 0.3s;
 }
 
-.card:hover{
+.card:hover {
     transform: translateY(-10px);
 }
-.card img{
+
+.card img {
     width: 100%;
     border-radius: 20px;
 }
 
-.card h3{
+.card h3 {
     margin-top: 15px;
     font-size: 22px;
 }
 
-.card p{
+.card p {
     margin-top: 10px;
     font-size: 17px;
 }
 
-.footer{
+.footer {
     margin-top: 50px;
     text-align: center;
     padding: 20px;
     font-size: 18px;
 }
 
-.productos-titulo{
+.productos-titulo {
     margin-bottom: 40px;
 }
 
-.productos-titulo h2{
+.productos-titulo h2 {
     font-size: 45px;
 }
 
-.productos-titulo p{
+.productos-titulo p {
     margin-top: 10px;
     font-size: 20px;
 }
 
-.productos-layout{
+.productos-layout {
     display: grid;
     grid-template-columns: 250px 1fr;
     gap: 40px;
 }
 
-.filtros{
+.filtros {
     background-color: white;
     padding: 30px;
     border-radius: 30px;
     height: fit-content;
 }
 
-.filtros h3{
+.filtros h3 {
     margin-top: 20px;
     margin-bottom: 15px;
     font-size: 24px;
 }
 
-.filtros label{
+.filtros label {
     display: block;
     margin-top: 12px;
     font-size: 18px;
 }
 
-.productos-grid{
+.productos-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
 }
 
-.btn-card{
+.btn-card {
     display: inline-block;
     margin-top: 20px;
     background-color: #9b6dff;
@@ -247,50 +250,50 @@ h3{
     transition: 0.3s;
 }
 
-.btn-card:hover{
+.btn-card:hover {
     background-color: #7f4ef0;
 }
 
-.card{
+.card {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
 }
 
-.card:hover{
+.card:hover {
     transform: translateY(-10px);
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.12);
 }
 
-.contacto-titulo{
+.contacto-titulo {
     margin-bottom: 40px;
 }
 
-.contacto-titulo h2{
+.contacto-titulo h2 {
     font-size: 45px;
 }
 
-.contacto-titulo p{
+.contacto-titulo p {
     margin-top: 10px;
     font-size: 20px;
 }
 
-.contacto-layout{
+.contacto-layout {
     display: grid;
     grid-template-columns: 1fr 350px;
     gap: 40px;
 }
 
-.formulario{
+.formulario {
     background-color: white;
     padding: 40px;
     border-radius: 30px;
 }
 
-.formulario form{
+.formulario form {
     display: flex;
     flex-direction: column;
 }
 
-.formulario label{
+.formulario label {
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 18px;
@@ -298,7 +301,7 @@ h3{
 }
 
 .formulario input,
-.formulario textarea{
+.formulario textarea {
     padding: 15px;
     border: none;
     background-color: #f3eeff;
@@ -306,12 +309,12 @@ h3{
     font-size: 16px;
 }
 
-.formulario textarea{
+.formulario textarea {
     resize: none;
     height: 120px;
 }
 
-.formulario button{
+.formulario button {
     margin-top: 30px;
     padding: 15px;
     border: none;
@@ -323,30 +326,30 @@ h3{
     transition: 0.3s;
 }
 
-.formulario button:hover{
+.formulario button:hover {
     background-color: #7f4ef0;
 }
 
-.carrito{
+.carrito {
     background-color: white;
     padding: 30px;
     border-radius: 30px;
     height: fit-content;
 }
 
-.carrito h3{
+.carrito h3 {
     margin-bottom: 25px;
     font-size: 28px;
 }
 
-.producto-carrito{
+.producto-carrito {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
     font-size: 18px;
 }
 
-.total{
+.total {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
@@ -356,29 +359,31 @@ h3{
     font-weight: bold;
 }
 
-.ubicacion{
+.ubicacion {
     margin-top: 50px;
     background-color: white;
     padding: 40px;
     border-radius: 30px;
 }
 
-.ubicacion h2{
+.ubicacion h2 {
     margin-bottom: 30px;
 }
 
-.ubicacion iframe{
+.ubicacion iframe {
     width: 100%;
     height: 350px;
     border: none;
     border-radius: 20px;
 }
 
-.formulario input.error, .formulario textarea.error{
+.formulario input.error,
+.formulario textarea.error {
     border: 2px solid red;
 }
 
-.formulario input.correcto, .formulario textarea.correcto{
+.formulario input.correcto,
+.formulario textarea.correcto {
     border: 2px solid green;
 }
 
@@ -400,4 +405,33 @@ small {
     text-align: center;
     font-size: 40px;
     margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .contenedor {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        text-align: center;
+    }
+
+    .productos-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .contacto-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-texto,
+    .hero-imagen {
+        width: 100%;
+    }
+
 }
